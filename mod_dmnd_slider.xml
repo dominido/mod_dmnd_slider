@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Slider</name>
+	<author></author>
+	<creationDate></creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>slider - hotels</description>
+	<files>
+		<filename module="mod_dmnd_slider">mod_dmnd_slider.php</filename>
+		<filename module="mod_dmnd_slider">index.html</filename>
+		<folder module="mod_dmnd_slider">tmpl</folder>
+		<folder module="mod_dmnd_slider">assets</folder>
+	</files>	
+	<config>
+		<fields name="params">
+			<fieldset
+				name="advanced">
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
